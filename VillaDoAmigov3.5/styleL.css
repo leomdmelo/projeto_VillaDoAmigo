@@ -1,0 +1,90 @@
+.backBody .container h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.backBody .container form {
+    margin: 0 0 50px 200px;
+}
+
+.backBody .container form>div {
+    border: 3px solid #797979;
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 368px;
+}
+
+.backBody .container form>div>p {
+    background-color: #6B9EAE;
+    color: #ffffff;
+    max-height: 55px;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #797979;
+}
+
+.backBody .container form div div {
+    width: 296px;
+    margin: 0 auto;
+}
+
+.backBody .container form div div p {
+    color: #333333;
+    padding: 15px 0 10px;
+}
+
+.backBody .container form div div input {
+    color: #333333;
+    padding: 12px 15px;
+    width: 100%;
+    border: 0px solid #000000;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+.backBody .container form div div a {
+    color: #169BD5;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.backBody .container form .acoes {
+    margin: 30px auto 0 auto;
+}
+
+.backBody .container form .cadastrar {
+    width: 50%;
+    font-size: 0.83em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.backBody .container form .cadastrar div {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    background-color: #6B9EAE;
+    color: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+.backBody .container form .logar {
+    width: 45%;
+    float: right;
+}
+
+.backBody .container form .logar button {
+    width: 100%;
+    padding: 16px 15px;
+    font-size: 1em;
+    background-color: #0099CC;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 0px solid #000000;
+    text-align: center;
+    box-shadow: 0px 1px 3px -2px #000000;
+}

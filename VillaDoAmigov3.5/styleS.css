@@ -1,0 +1,16 @@
+.backCall {
+    background-image: url('imagens/quem-somos.png');
+    background-attachment: fixed;
+    background-position-y: -50px;
+    background-size: 100%
+}
+
+.backBody .container {
+    padding: 0 15px 35px 15px;
+    color: #393939;
+    font-size: 0.98em;
+}
+
+.backBody .container .titulo {
+    margin: 45px 0 35px 0;
+}

@@ -1,0 +1,431 @@
+.backBody .container h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.backBody .container form {
+    margin: 0 0 50px 200px;
+}
+
+.backBody .container .cadastro {
+    display: inline-block;
+    margin: 0 0 50px 15px;
+    vertical-align: top;
+}
+
+.backBody .container form>div {
+    border: 3px solid #797979;
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 720px;
+}
+
+.backBody .container form>div>p {
+    background-color: #6B9EAE;
+    color: #ffffff;
+    max-height: 55px;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #797979;
+}
+
+.backBody .container form div div {
+    width: 296px;
+    margin: 0 auto;
+}
+
+.backBody .container form div div p {
+    color: #333333;
+    padding: 15px 0 10px;
+}
+
+.backBody .container form div div input {
+    color: #333333;
+    padding: 12px 15px;
+    width: 100%;
+    border: 0px solid #000000;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+.backBody .container form div div select {
+    color: #333333;
+    padding: 12px 15px;
+    border: 0px solid #000000;
+    width: 100%;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+.backBody .container form .progresso {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.backBody .container form .progresso ul,
+.backBody .container form .progresso li {
+    list-style: none;
+    display: inline-block;
+}
+
+.backBody .container form .progresso li {
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    margin: 20px 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.backBody .container form .progresso li.atual {
+    background-color: #666666;
+}
+
+.backBody .container form .acoes {
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.backBody .container form .cancelar {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1em;
+}
+
+.backBody .container form .cancelar div {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #CC3333;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+.backBody .container form .proximo {
+    width: 45%;
+    float: right;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #0099CC;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+.backBody .container form .telFixo {
+    width: 47%;
+    display: inline-block;
+}
+
+.backBody .container form .telMovel {
+    width: 50%;
+    float: right;
+}
+
+.backBody .container form .select {
+    width: 49%;
+    display: inline-block;
+}
+
+.backBody .container form .voltar {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #515151;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+.backBody .container form .concluir {
+    width: 45%;
+    float: right;
+    font-size: 1em;
+}
+
+.backBody .container form .concluir input {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #0099CC;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+.backBody .container form div h1 {
+    margin: 80px auto 50px auto;
+    text-align: center;
+    color: #333333;
+}
+
+.backBody .container form div h3 {
+    text-align: center;
+    color: #333333;
+}
+
+.backBody .container form div h4,
+.backBody .container form div>a {
+    margin: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    color: #0099CC;
+}
+
+.backBody .container form div h2 {
+    cursor: initial;
+    user-select: none;
+    text-align: center;
+    color: #ffffff;
+    line-height: 4.25;
+    margin: 60px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #0099CC;
+}
+
+.backBody .container form .relatorio {
+    width: 100%;
+    height: 100px;
+    max-height: 100px;
+    padding: 5px;
+    text-indent: 10px;
+    background-color: #ffffff;
+    border: 1px solid #515151;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.backBody .container form .sucess input {
+    font-size: 1em;
+    background-color: #0099CC;
+    text-align: center;
+    color: #ffffff;
+}
+
+.backBody .container form .failure input {
+    font-size: 1em;
+    background-color: #515151;
+    text-align: center;
+    color: #ffffff;
+}
+
+.backBody .container .cadastrado {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    margin: 0 0 0 50px;
+}
+
+.backBody .container .solicitacoes {
+    display: inline-block;
+    position: relative;
+    overflow-x: hidden;
+    width: 800px;
+    margin: 0 0 0 15px;
+    max-width: 800px;
+}
+
+.backBody .container .cadastrado h3,
+.backBody .container .solicitacoes h3 {
+    font-size: 1.3em;
+    margin: 0 0 15px 0;
+}
+
+.backBody .container .cadastrado table,
+.backBody .container .solicitacoes table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+
+/*Scroll Animais cadastrados*/
+
+.backBody .container .cadastrado table td::-webkit-scrollbar {
+    background-color: #ffffff;
+    height: 0px;
+}
+
+.backBody .container .cadastrado table td::-webkit-scrollbar-track {
+    background-color: #c4c4c4;
+}
+
+.backBody .container .cadastrado table td::-webkit-scrollbar-thumb {
+    background-color: #333333;
+}
+
+
+/*Scroll Animais solicitados*/
+
+.backBody .container .solicitacoes table td::-webkit-scrollbar {
+    background-color: #ffffff;
+    height: 5px;
+}
+
+.backBody .container .solicitacoes table td::-webkit-scrollbar-track {
+    background-color: #c4c4c4;
+}
+
+.backBody .container .solicitacoes table td::-webkit-scrollbar-thumb {
+    background-color: #333333;
+}
+
+.backBody .container .cadastrado .remover,
+.backBody .container .solicitacoes .remover {
+    background: linear-gradient(30deg, #9f2d2d, #e55f5f);
+    /*background: linear-gradient(30deg, #800909, #cc3333);*/
+}
+
+.backBody .container .cadastrado table a,
+.backBody .container .solicitacoes table a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.backBody .container .cadastrado table .adotado,
+.backBody .container .solicitacoes table .aceitar {
+    color: #ffffff;
+    background: linear-gradient(30deg, #356a37, #34d51f);
+}
+
+.backBody .container .cadastrado table td,
+.backBody .container .solicitacoes table td {
+    padding: 10px;
+    max-width: 115px;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.backBody .container .cadastrado table tr:nth-child(odd),
+.backBody .container .solicitacoes table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.backBody .container .cadastrado table tr:nth-child(even),
+.backBody .container .solicitacoes table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+
+/*
+.backBody .container .cadastrado table tr:first-of-type,
+.backBody .container .solicitacoes table tr:first-of-type {
+    border: 1px solid #6B9EAE;
+}*/
+
+.backBody .container .cadastrado table th,
+.backBody .container .solicitacoes table th {
+    background-color: #6B9EAE;
+    color: #ffffff;
+    white-space: nowrap;
+    text-align: start;
+    padding: 10px;
+}
+
+.backBody .container .cadastrado h3::after,
+.backBody .container .solicitacoes h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.3em;
+    width: 300px;
+    height: 1px;
+    background-color: #333333;
+}
+
+#cadastrO {
+    float: left;
+}
+
+.backBody .container .pesquisa {
+    display: inline-block;
+    margin: 15px 0 15px 50px;
+    width: 300px;
+}
+
+.backBody .container .pesquisa h3 {
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.backBody .container .pesquisa h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.3em;
+    width: 300px;
+    height: 1px;
+    background-color: #333333;
+}
+
+.backBody .container .pesquisa form {
+    width: 300px;
+    margin: initial;
+    display: inline-block;
+}
+
+.backBody .container .pesquisa .search {
+    padding: 5px 0 6px 5px;
+    width: 200px;
+}
+
+.backBody .container .pesquisa .inputSearch {
+    background-color: #0099CC;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+
+.backBody .container .opcoes {
+    margin: 150px 0 0 0;
+}
+
+.backBody .container .opcao {
+    margin: 150px 0 0 0;
+}
+
+.backBody .container .opcao .cadastrado table {
+    width: 750px;
+}
+
+.backBody .container .opcao .cadastrado table td {
+    max-width: initial;
+}
+
+.backBody .container .opcao .cadastrado table tr td:last-of-type {
+    width: 90px;
+}
+
+.backFooter .foot2 form input:last-of-type {
+    text-align: center;
+}
+
+.seemore {
+    margin: 0 0 0 100px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
